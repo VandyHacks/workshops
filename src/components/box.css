@@ -17,9 +17,11 @@
 }
 
 .desc {
-    font-size: 0.9em;
+    font-size: 1em;
 }
-
+.deps {
+    font-size: 0.8em;
+}
 .time {
     font-size: 1em;
 }
@@ -38,4 +40,5 @@
 }
 
 .github {
+    font-size: 0.8em;
 }
