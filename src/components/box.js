@@ -4,16 +4,29 @@ const Box = props => {
     return (
         <div className='container'>
             <div className='title'>{props.title}</div>
-            <div className='topic'>
-                {props.topic} - {props.difficulty}
-            </div>
             <div className='time'>{props.time}</div>
+
+            <div className='topic'>
+                {props.topic} {props.languages}
+            </div>
+            <div className='difficulty'>
+                {props.difficulty} {props.diffnote}
+            </div>
             <div className='desc'>{props.description}</div>
             <div className='preqs'>{props.preqs}</div>
-            <div className='github'>{props.github}</div>
-            <a className='github' href={props.slides}>
-                {props.slides}
-            </a>
+            <div>
+                <span>{props.github ? "Code: " : ""}</span>
+
+                <a className='github' href={props.github}>
+                    {props.github}
+                </a>
+            </div>
+            <div>
+                <span>{props.slides ? "Slides: " : ""}</span>
+                <a className='github' href={props.slides}>
+                    {props.slides}
+                </a>
+            </div>
         </div>
     );
 };

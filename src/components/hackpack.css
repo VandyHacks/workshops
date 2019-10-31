@@ -17,11 +17,11 @@
 }
 
 .desc {
-    font-size: 0.9em;
+    font-size: 1em;
 }
 
 .time {
-    font-size: 1em;
+    font-size: 1.1em;
 }
 
 .title {
@@ -33,8 +33,7 @@
     font-size: 1.2em;
 }
 
-.difficulty {
-    font-size: 1em;
+.prereqs {
 }
 
 .github {

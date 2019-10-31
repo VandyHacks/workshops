@@ -1,0 +1,21 @@
+[
+    [
+        {
+            "topic": "Backend with Django",
+            "description": "Here you will find the necessary tools to code your API with Django using Django REST framework. The sample API implements a GET and a PUSH endpoint and provides guidelines for extensibility.",
+            "github": "https://github.com/konoikon/Backend-Django-Hackpack"
+        },
+        {
+            "topic": "Unity for Beginners",
+            "description": "This is an introduction to creating Unity experiences without programming. Perfect for those new to creating applications. After following the steps in the tutorial you will understand how Unity is structured and how to create short experiences using Unity 3D GameKit. It also contains links to relevant advanced tutorials to continue your learning from there.",
+            "github": "https://github.com/pinsonc/VandyHacks-Unity-Hackpack"
+        }
+    ],
+    [
+        {
+            "topic": "Chrome Extensions",
+            "description": "Here's an example chrome extension that will change all the images on a webpage into an image of current VandyHacks co-president Matt Leon. See how to structure your chrome extension and learn the various ways you can manipulate DOM elements.",
+            "github": "https://github.com/VandyHacks/VH6-Chrome-extension-hackpack"
+        }
+    ]
+]

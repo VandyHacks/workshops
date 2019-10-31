@@ -5,6 +5,7 @@
     justify-content: center;
     color: #293c85;
     font-family: "Cabin";
+    margin: 2%;
     margin-top: 0%;
     margin-bottom: 3%;
 }
@@ -21,4 +22,56 @@
 .logo {
     color: #293c85;
     width: 50%;
+}
+
+.header {
+    color: #293c85;
+    width: 50%;
+}
+
+.headerBox {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    margin-top: 5%;
+    height: 75px;
+    width: 100%;
+}
+
+.buttonBox {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    height: 75px;
+    width: 100%;
+    margin-top: 5%;
+    margin-bottom: 10%;
+    text-align: center;
+}
+.backbut {
+    color: rgb(41, 60, 133);
+    font-weight: 500;
+    user-select: none;
+    padding: 0.5em 2em;
+    border-width: 3px;
+    border-style: solid;
+    border-color: rgb(41, 59, 133);
+    border-image: initial;
+    border-radius: 6px;
+    background: none;
+    transition: all 0.25s linear 0s;
+    text-decoration: none;
+    margin: 1em auto;
+    outline: none;
+}
+
+.backbut:hover,
+.backbut:focus {
+    background-color: hsl(228, 53%, 34%);
+    color: white;
+    cursor: pointer;
+}
+
+.backbut:-moz-focus-inner {
+    border: 0;
 }
