@@ -8,7 +8,7 @@ function App() {
     return (
         <div className='App'>
             <div className='logoBox'>
-                <img className='logo' src='./bigLogo.svg' alt='vh logo' />
+                <img className='logo' src='./logo.svg' alt='vh logo' />
             </div>
             <div className='headerBox'>
                 <img className='header' src='./workshops.svg' alt='workshops' />
