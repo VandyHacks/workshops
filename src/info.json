@@ -1,0 +1,80 @@
+[
+    [
+        {
+            "title": "APIs with Postman and ExpressJS",
+            "topic": "APIs",
+            "id": "apiws",
+            "time": "11:30pm - 12:30pm",
+            "description": "This workshop will walk you through how to use and create an API. In the first half, we will start the workshop by exploring the basics of Postman and how to use it to make GET and POST requests on an API. In the latter half, we will be creating our own API with several routes and middleware using ExpressJS.",
+            "dependencies": "NodeJS, NPM",
+            "languages": "JavaScript",
+            "difficulty": "Beginner",
+            "github": "no",
+            "slides": ""
+        },
+        {
+            "title": "Beginner Web Development",
+            "topic": "Beginner Web Development",
+            "id": "bwd",
+            "time": "9:30pm - 10:30pm",
+            "description": "Learn how to make basic websites!",
+            "dependencies": "Any text editor",
+            "languages": "HTML, CSS, JavaScript",
+            "difficulty": "Beginner",
+            "github": "no",
+            "slides": ""
+        }
+    ],
+    [
+        {
+            "title": "Turning Your Unity App into VR",
+            "topic": "Unity",
+            "id": "up2",
+            "time": "11:30pm - 12:30am",
+            "description": "This Unity VR workshop will show you how to navigate Oculus’s VR plugin for Unity. We’ll talk about making objects interactable in VR and build a player character you can drop into any Unity scene.",
+            "dependencies": "Unity Hub & a version of Unity: https://docs.unity3d.com/Manual/GettingStartedInstallingHub.html\n Oculus Integration from the Unity Asset Store\n Note: Your laptop does not have to be VR-capable to develop for VR!",
+            "languages": "C#",
+            "difficulty": "Intermediate",
+            "github": "no",
+            "slides": ""
+        },
+        {
+            "title": "Making Your First 3D Video Game with Unity",
+            "topic": "Unity",
+            "id": "up1",
+            "time": "10:30pm - 11:30pm",
+            "description": "This Unity workshop for absolute beginners will teach the basics of 3D objects, movement, and interaction.\n We will dip into minimal C# scripting but no coding experience is necessary.\n You will walk out with a playable minigame and a foundation to be able to learn and understand more about Unity!",
+            "dependencies": "Unity Hub & a version of Unity: https://docs.unity3d.com/Manual/GettingStartedInstallingHub.html",
+            "languages": "C#",
+            "difficulty": "Beginner",
+            "github": "no",
+            "slides": ""
+        }
+    ],
+    [
+        {
+            "title": "animation: all 60m infinite",
+            "topic": "CSS Web Animations",
+            "id": "wa",
+            "time": "1:30am - 2:30am",
+            "description": "Learn three different techniques to add polish to your web applications with as little effort as possible.",
+            "dependencies": "NPM, Node.js",
+            "languages": "CSS",
+            "difficulty": "Beginner",
+            "github": "no",
+            "slides": ""
+        },
+        {
+            "title": "Become a 10x developer with Z-shell",
+            "topic": "Z-shell",
+            "id": "zsh",
+            "time": "12:30am - 1:30am",
+            "description": "This workshop is an introduction into Z-shell(zsh). It compares Z-shell with Bash, goes over the installation and configuration of Zsh. We'll also look at the popular plugin framework Oh My Zsh, and look at how to theme your command line.",
+            "dependencies": "Windows Subsystem for Linux (WSL) if using Windows",
+            "languages": "N/A",
+            "difficulty": "Intermediate",
+            "github": "no",
+            "slides": "vhl.ink/zsh"
+        }
+    ]
+]
