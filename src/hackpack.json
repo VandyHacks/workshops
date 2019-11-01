@@ -16,6 +16,11 @@
             "topic": "Chrome Extensions",
             "description": "Here's an example chrome extension that will change all the images on a webpage into an image of current VandyHacks co-president Matt Leon. See how to structure your chrome extension and learn the various ways you can manipulate DOM elements.",
             "github": "https://github.com/VandyHacks/VH6-Chrome-extension-hackpack"
+        },
+        {
+            "topic": "Swift",
+            "description": "With this hackpack you will create a basic iOS application using Xcode and Swift. You will learn the basic layout of an iOS app, the interaction between storyboards and swift files.",
+            "github": "https://github.com/VandyHacks/swift-hackpack"
         }
     ]
 ]
