@@ -14,14 +14,14 @@
             "slides": ""
         },
         {
-            "title": "Google Cloud and the Natural Language API",
-            "topic": "GCP and Natural Language API",
-            "id": "gcpnl",
+            "title": "How to Get Started on Your Hackathon Project",
+            "topic": "Human-Centered Design",
+            "id": "hcd",
             "time": "9:30pm - 10:30pm in 048",
-            "description": "Google Cloud offers multiple and really advanced APIs for a variety of tasks. In this workshop we'll be using the Natural Language API to create a simple chatbot that will cheer you up when you're upset and inspire you when you're happy!",
-            "dependencies": "NodeJS, NPM",
+            "description": "What is Human Centered Design? Learn a systematic approach for creative problem-solving that is designed to get you to learn directly from people, explore the breadth of creative possibilities, and zero in on what’s most desirable, feasible, and viable for your audience.",
+            "dependencies": "",
             "difficulty": "Beginner",
-            "languages": "- JavaScript",
+            "languages": "",
             "github": "",
             "slides": ""
         }
@@ -82,16 +82,16 @@
     ],
     [
         {
-            "title": "Become a 10x developer with Z-shell",
-            "topic": "Z-shell",
-            "id": "zsh",
-            "time": "12:30am - 1:30am in 044",
-            "description": "This workshop is an introduction into Z-shell(zsh). It compares Z-shell with Bash, goes over the installation and configuration of Zsh. We'll also look at the popular plugin framework Oh My Zsh, and look at how to theme your command line.",
-            "dependencies": "Windows Subsystem for Linux (WSL) if using Windows",
-            "languages": "- N/A",
-            "difficulty": "Intermediate",
+            "title": "Google Cloud and the Natural Language API",
+            "topic": "GCP and Natural Language API",
+            "id": "gcpnl",
+            "time": "12:30pm - 1:30am in 044",
+            "description": "Google Cloud offers multiple and really advanced APIs for a variety of tasks. In this workshop we'll be using the Natural Language API to create a simple chatbot that will cheer you up when you're upset and inspire you when you're happy!",
+            "dependencies": "NodeJS, NPM",
+            "difficulty": "Beginner",
+            "languages": "- JavaScript",
             "github": "",
-            "slides": "vhl.ink/zsh"
+            "slides": ""
         },
         {
             "title": "Building a Svelte Web Application",
@@ -105,6 +105,20 @@
             "diffnote": "- Experience with web development required",
             "github": "https://github.com/bencooper222/svelte-workshop",
             "slides": ""
+        }
+    ],
+    [
+        {
+            "title": "Become a 10x developer with Z-shell",
+            "topic": "Z-shell",
+            "id": "zsh",
+            "time": "12:30am - 1:30am in 001",
+            "description": "This workshop is an introduction into Z-shell(zsh). It compares Z-shell with Bash, goes over the installation and configuration of Zsh. We'll also look at the popular plugin framework Oh My Zsh, and look at how to theme your command line.",
+            "dependencies": "Windows Subsystem for Linux (WSL) if using Windows",
+            "languages": "- N/A",
+            "difficulty": "Intermediate",
+            "github": "",
+            "slides": "vhl.ink/zsh"
         }
     ],
     [

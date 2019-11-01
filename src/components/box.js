@@ -15,7 +15,9 @@ const Box = props => {
             <div className='desc'>{props.description}</div>
             <div className='preqs'>{props.preqs}</div>
             <div className='deps'>
-                <i>Dependencies: {props.dependencies}</i>
+                <i>
+                    {props.dependencies ? "Dependencies" : ""} {props.dependencies}
+                </i>
             </div>
             <div className='github'>
                 <span>{props.github ? "Code: " : ""}</span>
