@@ -94,25 +94,10 @@
             "slides": ""
         },
         {
-            "title": "Building a Svelte Web Application",
-            "topic": "Svelte",
-            "id": "svl",
-            "time": "12:30am - 1:30am in 048",
-            "description": "We'll build a basic web app using a new framework called Svelte that uses clever compiling tricks to create a full web app without shipping the full framework to production.",
-            "dependencies": "NodeJS, NPM",
-            "languages": "- JavaScript",
-            "difficulty": "Intermediate",
-            "diffnote": "- Experience with web development required",
-            "github": "https://github.com/bencooper222/svelte-workshop",
-            "slides": ""
-        }
-    ],
-    [
-        {
             "title": "Become a 10x developer with Z-shell",
             "topic": "Z-shell",
             "id": "zsh",
-            "time": "12:30am - 1:30am in 001",
+            "time": "12:30am - 1:30am in 048",
             "description": "This workshop is an introduction into Z-shell(zsh). It compares Z-shell with Bash, goes over the installation and configuration of Zsh. We'll also look at the popular plugin framework Oh My Zsh, and look at how to theme your command line.",
             "dependencies": "Windows Subsystem for Linux (WSL) if using Windows",
             "languages": "",
