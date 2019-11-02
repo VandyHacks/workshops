@@ -64,7 +64,7 @@
             "dependencies": "NodeJS, NPM",
             "languages": "- JavaScript",
             "difficulty": "Beginner",
-            "github": "",
+            "github": "https://github.com/VandyHacks/introduction-to-apis",
             "slides": "https://vhl.ink/apis"
         },
         {
