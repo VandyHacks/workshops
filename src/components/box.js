@@ -32,6 +32,19 @@ const Box = props => {
                     {props.slides}
                 </a>
             </div>
+            <div className='github'>
+                <span>{props.register ? "Register Here: " : ""}</span>
+                <a className='github' href={props.register} target="_blank" rel="noopener noreferrer">
+                {props.register} 
+                </a>
+            </div>
+            <div className='github'>
+                <span>{props.setup ? "Set Up: " : ""}</span>
+                <a className='github' href={props.setup}>
+                    {props.setup}
+                </a>
+            </div>
+            
         </div>
     );
 };
