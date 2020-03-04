@@ -1,6 +1,21 @@
 [
     [
         {
+            "title": "Open-saurus Rex: How to Contribute to Open Source",
+            "topic": "Web Development",
+            "register": "https://tinyurl.com/v9smjcl",
+            "id": "bwd",
+            "time": "7:00pm - 9:00pm in Featheringill Hall 138",
+            "description": "Learn about Open Source through the Chrome Dino Game!",
+            "dependencies": "Git, Github, VSCode.",
+            "languages": "- HTML, CSS, JavaScript, Git/Github",
+            "difficulty": "Beginner",
+            "diffnote": "- No experience necessary",
+            "github": "",
+            "slides": "",
+            "setup": "https://tinyurl.com/uml7nzl"
+        },
+        {
             "title": "How to Make Your First Website",
             "topic": "Web Development",
             "id": "bwd",
