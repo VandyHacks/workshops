@@ -2,13 +2,14 @@ import React from "react";
 import "./App.css";
 import Box from "./components/box";
 import Hackpack from "./components/hackpack";
-let hpinfo = require("./hackpack.json");
-let info = require("./info.json");
-function App() {
+const hpinfo = require("./hackpack.json");
+const info = require("./info.json");
+
+const App = () => {
     return (
         <div className='App'>
             <div className='logoBox'>
-                <img className='logo' src='./logo.svg' alt='vh logo' />
+                <img className='logo' src='./darklogo.svg' alt='vh logo' />
             </div>
             <div className='headerBox'>
                 <img className='header' src='./workshops.svg' alt='workshops' />
@@ -29,8 +30,8 @@ function App() {
                 </div>
             ))}
             <div className='buttonBox'>
-                <a type='button' className='backbut' href='http://dayof.vandyhacks.org/'>
-                    Day-Of Page
+                <a type='button' className='backbut' href='https://vandyhacks.org/'>
+                    VandyHacks VII
                 </a>
             </div>
         </div>
