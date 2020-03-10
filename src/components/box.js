@@ -10,13 +10,15 @@ const Box = props => {
 								<a className='twitch' href={props.twitch}>
 									Twitch	
 								</a>
-							: props.location}</div>
+							: props.location}
+            </div>
 						<div className='contact'>
 							{(props.virtual && props.virtual === "true") ? 
 								<p>Contact at: <a className='slack' href={props.slack}>
 									Slack
 								</a></p>
-							: ""}</div>
+							: ""}
+            </div>
 						<div className='register'>
 							{props.register ? "Register at: " : ""}
 							<a className='register' href={props.register}>
