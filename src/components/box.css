@@ -1,69 +1,77 @@
 * {
-    margin: 0;
+  margin: 0;
 }
 
 .bolding {
-    font-weight: bolder;
+  font-weight: bolder;
 }
 
 .container {
-    text-align: left;
-    margin: 5%;
-    flex-basis: 25em;
-    margin-bottom: 2%;
+  text-align: left;
+  margin: 5%;
+  flex-basis: 25em;
+  margin-bottom: 2%;
 }
 
 .container div {
-    margin-bottom: 5px;
+  margin-bottom: 5px;
 }
 
 .desc {
-    font-size: 1em;
+  font-size: 1em;
 }
 
 .deps {
-    font-size: 0.8em;
-		font-style: italic;
+  font-size: 0.8em;
+  font-style: italic;
 }
 
 .setup {
-		font-size: 0.8em;
-		font-style: italic;
+  font-size: 0.8em;
+  font-style: italic;
 }
 
 .contact {
-		font-size: 1.1em;
+  font-size: 1.1em;
 }
 
 .time {
-    font-size: 1em;
+  font-size: 1em;
+}
+
+.youtube {
+  font-size: 1.05em;
+}
+
+.twitch {
+  font-size: 1em;
 }
 
 .title {
-    font-size: 1.4em;
-    font-weight: bold;
+  font-size: 1.4em;
+  font-weight: bold;
 }
 
 .register {
-		font-size: 1.1em;
+  font-size: 1.1em;
 }
 
 .topic {
-    font-size: 1.2em;
+  font-size: 1.2em;
 }
 
 .difficulty {
-    font-size: 1em;
+  font-size: 1em;
 }
 
 .slides {
-    font-size: 0.8em;
+  font-size: 0.8em;
 }
 
 .code {
-    font-size: 0.8em;
+  font-size: 0.8em;
 }
 
 .github {
-    font-size: 0.8em;
+  font-size: 0.8em;
 }
