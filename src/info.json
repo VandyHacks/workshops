@@ -1,155 +1,155 @@
 [
-    [
-        {
-            "title": "Open-saurus Rex: How to Contribute to Open Source",
-            "topic": "Web Development",
-            "register": "https://tinyurl.com/v9smjcl",
-            "id": "bwd",
-            "time": "7:00pm - 9:00pm on Mar 12",
-						"twitch": "https://twitch.tv/vandyhacks",
-						"virtual": "true",
-						"slack": "https://join.slack.com/t/vanderbiltcsorgs/shared_invite/zt-cf31pjlz-fjw0lFzk6nECP~vka4lmmg",
-            "description": "Learn about Open Source through the Chrome Dino Game!",
-            "dependencies": "Git, GitHub, VSCode.",
-            "languages": "- JavaScript, Git/GitHub",
-            "difficulty": "Beginner",
-            "diffnote": "- No experience necessary",
-            "github": "https://github.com/VandyHacks/Opensaurus-Rex-HackPack",
-            "slides": "https://tinyurl.com/vmpscj5",
-            "setup": "https://tinyurl.com/uml7nzl"
-        },
-        {
-            "title": "How to Make Your First Website",
-            "topic": "Web Development",
-            "id": "bwd",
-            "time": "9:30pm - 10:30pm on Nov 1 in ESB 044",
-            "description": "Learn how to make basic websites! We will start making a personal website / portfolio and learn the basics of HTML, CSS and Javascript!",
-            "dependencies": "Any text editor",
-            "languages": "- HTML, CSS, JavaScript",
-            "difficulty": "Beginner",
-            "diffnote": "- No experience necessary",
-            "github": "",
-            "slides": ""
-        },
-        {
-            "title": "How to Get Started on Your Hackathon Project",
-            "topic": "Human-Centered Design",
-            "id": "hcd",
-            "time": "9:30pm - 10:30pm on Nov 1 in ESB 048",
-            "description": "What is Human Centered Design? Learn a systematic approach for creative problem-solving that is designed to get you to learn directly from people, explore the breadth of creative possibilities, and zero in on what’s most desirable, feasible, and viable for your audience.",
-            "dependencies": "",
-            "difficulty": "Beginner",
-            "languages": "",
-            "github": "",
-            "slides": ""
-        }
-    ],
-    [
-        {
-            "title": "Angular With Firebase",
-            "topic": "Angular/Firebase",
-            "id": "anfi",
-            "time": "10:30pm - 11:30pm on Nov 1 in ESB 044",
-            "description": "This is an introduction to the Angular web framework and using Firebase alongside it to handle authentication and storage. Learn about the basic building blocks of Angular and how to get a web app up and running really quickly.",
-            "dependencies": "NodeJS, NPM, Angular, Angular/fire, TypeScript, types, rxjs, Angular/material",
-            "languages": "- TypeScript",
-            "difficulty": "Intermediate",
-            "diffnote": "",
-            "github": "",
-            "slides": ""
-        },
-        {
-            "title": "Making Your First 3D Video Game with Unity",
-            "topic": "Unity",
-            "id": "up1",
-            "time": "10:30pm - 11:30pm on Nov 1 in ESB 048",
-            "description": "This Unity workshop for absolute beginners will teach the basics of 3D objects, movement, and interaction.\n We will dip into minimal C# scripting but no coding experience is necessary.\n You will walk out with a playable minigame and a foundation to be able to learn and understand more about Unity!",
-            "dependencies": "Unity Hub & Unity",
-            "languages": "- C#",
-            "difficulty": "Beginner",
-            "diffnote": "- No experience necessary",
-            "github": "",
-            "slides": "https://vhl.ink/unity-1"
-        }
-    ],
-    [
-        {
-            "title": "Introduction to APIs",
-            "topic": "APIs",
-            "id": "apiws",
-            "time": "11:30pm - 12:30am on Nov 1 in ESB 044",
-            "description": "This workshop will walk you through how to use and create an API. In the first half, we will start the workshop by exploring the basics of Postman and how to use it to make GET and POST requests on an API. In the latter half, we will be creating our own API with several routes and middleware using ExpressJS.",
-            "dependencies": "NodeJS, NPM",
-            "languages": "- JavaScript",
-            "difficulty": "Beginner",
-            "github": "https://github.com/VandyHacks/introduction-to-apis",
-            "slides": "https://vhl.ink/apis"
-        },
-        {
-            "title": "Turning Your Unity App into VR",
-            "topic": "Unity",
-            "id": "up2",
-            "time": "11:30pm - 12:30am Nov 1 in ESB 048",
-            "description": "This Unity VR workshop will show you how to navigate Oculus’s VR plugin for Unity. We’ll talk about making objects interactable in VR and build a player character you can drop into any Unity scene.",
-            "dependencies": "Unity Hub & Unity(ver2019.2.0fx). Oculus Integration from the Unity Asset Store. Note: Your laptop does not have to be VR-capable to develop for VR!",
-            "languages": "- C#",
-            "difficulty": "Intermediate",
-            "github": "https://github.com/pinsonc/Unity-VR-Boilerplate",
-            "slides": "https://vhl.ink/unity-2"
-        }
-    ],
-    [
-        {
-            "title": "Google Cloud and the Natural Language API",
-            "topic": "GCP and Natural Language API",
-            "id": "gcpnl",
-            "time": "12:30am - 1:30am on Nov 2 in ESB 044",
-            "description": "Google Cloud offers multiple and really advanced APIs for a variety of tasks. In this workshop we'll be using the Natural Language API to create a simple chatbot that will cheer you up when you're upset and inspire you when you're happy!",
-            "dependencies": "NodeJS, NPM",
-            "difficulty": "Beginner",
-            "languages": "- JavaScript",
-            "github": "",
-            "slides": ""
-        },
-        {
-            "title": "Become a 10x developer with Z-shell",
-            "topic": "Z-shell",
-            "id": "zsh",
-            "time": "12:30am - 1:30am on Nov 2 in ESB 048",
-            "description": "This workshop is an introduction into Z-shell(zsh). It compares Z-shell with Bash, goes over the installation and configuration of Zsh. We'll also look at the popular plugin framework Oh My Zsh, and look at how to theme your command line.",
-            "dependencies": "Windows Subsystem for Linux (WSL) if using Windows",
-            "languages": "",
-            "difficulty": "Intermediate",
-            "github": "",
-            "slides": "https://vhl.ink/zsh"
-        }
-    ],
-    [
-        {
-            "title": "How to Literally Hack",
-            "topic": "Binary Exploitation and Reverse Engineering",
-            "id": "bere",
-            "time": "1:30am - 2:30am on Nov 2 in ESB 044",
-            "description": "Learn how integers, buffers, and string format can be used to exploit binaries, what this means, and how to discover these vulnerabilities.",
-            "dependencies": "Windows Subsystem for Linux if on Windows",
-            "languages": "- C",
-            "difficulty": "Intermediate",
-            "diffnote": "- Knowledge of integer properties, buffer overflows, and run-time stack highly recommended.",
-            "github": "https://github.com/timothy-liang/vhacks-hacking-workshop",
-            "slides": "https://vhl.ink/how-to-literally-hack"
-        },
-        {
-            "title": "animation: all 60m infinite",
-            "topic": "CSS Web Animations",
-            "id": "wa",
-            "time": "1:30am - 2:30am Nov 2 in ESB 048",
-            "description": "Learn three different techniques to add polish to your web applications with as little effort as possible.",
-            "dependencies": "NPM, Node.js",
-            "languages": "- CSS",
-            "difficulty": "Beginner",
-            "diffnote": "- Some web experience recommended",
-            "github": "",
-            "slides": ""
-        }
-    ]
+  [
+    {
+      "title": "Open-saurus Rex: How to Contribute to Open Source",
+      "topic": "Web Development",
+      "id": "bwd",
+      "time": "7:00pm - 9:00pm on Mar 12",
+      "twitch": "https://twitch.tv/vandyhacks",
+      "youtube": "https://www.youtube.com/watch?v=GCNQGcJiXG0",
+      "virtual": "true",
+      "slack": "https://join.slack.com/t/vanderbiltcsorgs/shared_invite/zt-cf31pjlz-fjw0lFzk6nECP~vka4lmmg",
+      "description": "Learn about Open Source through the Chrome Dino Game!",
+      "dependencies": "Git, GitHub, VSCode.",
+      "languages": "JavaScript, Git/GitHub",
+      "difficulty": "Beginner",
+      "diffnote": "No experience necessary",
+      "github": "https://github.com/VandyHacks/Opensaurus-Rex-HackPack",
+      "slides": "https://tinyurl.com/vmpscj5",
+      "setup": "https://tinyurl.com/uml7nzl"
+    },
+    {
+      "title": "How to Make Your First Website",
+      "topic": "Web Development",
+      "id": "bwd",
+      "time": "9:30pm - 10:30pm on Nov 1 in ESB 044",
+      "description": "Learn how to make basic websites! We will start making a personal website / portfolio and learn the basics of HTML, CSS and Javascript!",
+      "dependencies": "Any text editor",
+      "languages": "HTML, CSS, JavaScript",
+      "difficulty": "Beginner",
+      "diffnote": "No experience necessary",
+      "github": "",
+      "slides": ""
+    },
+    {
+      "title": "How to Get Started on Your Hackathon Project",
+      "topic": "Human-Centered Design",
+      "id": "hcd",
+      "time": "9:30pm - 10:30pm on Nov 1 in ESB 048",
+      "description": "What is Human Centered Design? Learn a systematic approach for creative problem-solving that is designed to get you to learn directly from people, explore the breadth of creative possibilities, and zero in on what’s most desirable, feasible, and viable for your audience.",
+      "dependencies": "",
+      "difficulty": "Beginner",
+      "languages": "",
+      "github": "",
+      "slides": ""
+    }
+  ],
+  [
+    {
+      "title": "Angular With Firebase",
+      "topic": "Angular/Firebase",
+      "id": "anfi",
+      "time": "10:30pm - 11:30pm on Nov 1 in ESB 044",
+      "description": "This is an introduction to the Angular web framework and using Firebase alongside it to handle authentication and storage. Learn about the basic building blocks of Angular and how to get a web app up and running really quickly.",
+      "dependencies": "NodeJS, NPM, Angular, Angular/fire, TypeScript, types, rxjs, Angular/material",
+      "languages": "TypeScript",
+      "difficulty": "Intermediate",
+      "diffnote": "",
+      "github": "",
+      "slides": ""
+    },
+    {
+      "title": "Making Your First 3D Video Game with Unity",
+      "topic": "Unity",
+      "id": "up1",
+      "time": "10:30pm - 11:30pm on Nov 1 in ESB 048",
+      "description": "This Unity workshop for absolute beginners will teach the basics of 3D objects, movement, and interaction.\n We will dip into minimal C# scripting but no coding experience is necessary.\n You will walk out with a playable minigame and a foundation to be able to learn and understand more about Unity!",
+      "dependencies": "Unity Hub & Unity",
+      "languages": "C#",
+      "difficulty": "Beginner",
+      "diffnote": "No experience necessary",
+      "github": "",
+      "slides": "https://vhl.ink/unity-1"
+    }
+  ],
+  [
+    {
+      "title": "Introduction to APIs",
+      "topic": "APIs",
+      "id": "apiws",
+      "time": "11:30pm - 12:30am on Nov 1 in ESB 044",
+      "description": "This workshop will walk you through how to use and create an API. In the first half, we will start the workshop by exploring the basics of Postman and how to use it to make GET and POST requests on an API. In the latter half, we will be creating our own API with several routes and middleware using ExpressJS.",
+      "dependencies": "NodeJS, NPM",
+      "languages": "JavaScript",
+      "difficulty": "Beginner",
+      "github": "https://github.com/VandyHacks/introduction-to-apis",
+      "slides": "https://vhl.ink/apis"
+    },
+    {
+      "title": "Turning Your Unity App into VR",
+      "topic": "Unity",
+      "id": "up2",
+      "time": "11:30pm - 12:30am Nov 1 in ESB 048",
+      "description": "This Unity VR workshop will show you how to navigate Oculus’s VR plugin for Unity. We’ll talk about making objects interactable in VR and build a player character you can drop into any Unity scene.",
+      "dependencies": "Unity Hub & Unity(ver2019.2.0fx). Oculus Integration from the Unity Asset Store. Note: Your laptop does not have to be VR-capable to develop for VR!",
+      "languages": "C#",
+      "difficulty": "Intermediate",
+      "github": "https://github.com/pinsonc/Unity-VR-Boilerplate",
+      "slides": "https://vhl.ink/unity-2"
+    }
+  ],
+  [
+    {
+      "title": "Google Cloud and the Natural Language API",
+      "topic": "GCP and Natural Language API",
+      "id": "gcpnl",
+      "time": "12:30am - 1:30am on Nov 2 in ESB 044",
+      "description": "Google Cloud offers multiple and really advanced APIs for a variety of tasks. In this workshop we'll be using the Natural Language API to create a simple chatbot that will cheer you up when you're upset and inspire you when you're happy!",
+      "dependencies": "NodeJS, NPM",
+      "difficulty": "Beginner",
+      "languages": "JavaScript",
+      "github": "",
+      "slides": ""
+    },
+    {
+      "title": "Become a 10x developer with Z-shell",
+      "topic": "Z-shell",
+      "id": "zsh",
+      "time": "12:30am - 1:30am on Nov 2 in ESB 048",
+      "description": "This workshop is an introduction into Z-shell(zsh). It compares Z-shell with Bash, goes over the installation and configuration of Zsh. We'll also look at the popular plugin framework Oh My Zsh, and look at how to theme your command line.",
+      "dependencies": "Windows Subsystem for Linux (WSL) if using Windows",
+      "languages": "",
+      "difficulty": "Intermediate",
+      "github": "",
+      "slides": "https://vhl.ink/zsh"
+    }
+  ],
+  [
+    {
+      "title": "How to Literally Hack",
+      "topic": "Binary Exploitation and Reverse Engineering",
+      "id": "bere",
+      "time": "1:30am - 2:30am on Nov 2 in ESB 044",
+      "description": "Learn how integers, buffers, and string format can be used to exploit binaries, what this means, and how to discover these vulnerabilities.",
+      "dependencies": "Windows Subsystem for Linux if on Windows",
+      "languages": "C",
+      "difficulty": "Intermediate",
+      "diffnote": "Knowledge of integer properties, buffer overflows, and run-time stack highly recommended.",
+      "github": "https://github.com/timothy-liang/vhacks-hacking-workshop",
+      "slides": "https://vhl.ink/how-to-literally-hack"
+    },
+    {
+      "title": "animation: all 60m infinite",
+      "topic": "CSS Web Animations",
+      "id": "wa",
+      "time": "1:30am - 2:30am Nov 2 in ESB 048",
+      "description": "Learn three different techniques to add polish to your web applications with as little effort as possible.",
+      "dependencies": "NPM, Node.js",
+      "languages": "CSS",
+      "difficulty": "Beginner",
+      "diffnote": "Some web experience recommended",
+      "github": "",
+      "slides": ""
+    }
+  ]
 ]
