@@ -2,6 +2,7 @@ import React from "react"
 
 import Layout from "../components/layout"
 import CardContainer from "../components/cardContainer"
+import SearchComponent from "../components/search"
 
 
 const Card1 = {
@@ -52,6 +53,7 @@ const Cards = [Card1, Card2, Card3];
 
 const IndexPage = () => (
   <Layout>  
+    <SearchComponent items={Cards}></SearchComponent>
     <CardContainer cards={Cards} />
   </Layout>
 )

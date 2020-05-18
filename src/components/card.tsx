@@ -3,7 +3,19 @@ import React from "react"
 
 import "./card.css"
 
-const Card = (props) => {
+interface Card {
+  title: string,
+  description: string,
+  imageURL: string,
+  time: string,
+  level: 'Beginner' | 'Intermediate' | 'Advanced',
+  link1: string,
+  link2: string,
+  left: boolean,
+  active: boolean
+}
+
+const Card = (props: { left: boolean; imageURL: string; level: string; time: string; link1: string; link2: string; title: string; subtitle: string; description: string }) => {
 
   const isLeft = props.left ? 'alt':''
   const classWrap = `blog-card ${isLeft}`
@@ -35,8 +47,7 @@ const Card = (props) => {
   )
 }
 
-
-Card.propTypes = {
+/* Card.propTypes = {
   title: PropTypes.string,
   description: PropTypes.string,
   imageURL:PropTypes.string,
@@ -45,6 +56,6 @@ Card.propTypes = {
   link1: PropTypes.string,
   link2: PropTypes.string,
   left: PropTypes.bool,
-}
+} */
 
 export default Card;
