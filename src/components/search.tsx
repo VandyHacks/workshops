@@ -2,7 +2,10 @@ import React from "react"
 import Card from "./card"
 import debounce from "lodash/debounce"
 
-class SearchComponent extends React.Component<{items: Array<Card>}, {query: string}> {
+class SearchComponent extends React.Component<{items: Array<Card>, handler: (arg0: Array<Card>) => void}
+  , {query: string}> {
+
+  debounced = debounce(this.search, 2000);
     
   constructor(props) {
       super(props);
@@ -13,13 +16,12 @@ class SearchComponent extends React.Component<{items: Array<Card>}, {query: stri
   onChange(event: React.ChangeEvent<HTMLInputElement>) {
       const val = event.target.value;
       // 2 sec delay for testing
-      const debounced = debounce(this.search, 2000);
       this.setState({query: val}, () => {
-        debounced(this.state.query, this.props.items);
+        this.debounced(this.state.query, this.props.items);
       })
     }
         
-  search(query: string, items: Array<Card>): Array<Card> {
+  search(query: string, items: Array<Card>): void {
     const queryReturn: Array<Card> = [];
     for (let card of items) {
       if (
@@ -30,7 +32,7 @@ class SearchComponent extends React.Component<{items: Array<Card>}, {query: stri
       }
     }
     console.log(queryReturn, query);
-    return queryReturn;
+    this.props.handler(queryReturn);
   }
   render() {
       return (

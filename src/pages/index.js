@@ -1,4 +1,4 @@
-import React from "react"
+import React, {useState} from "react"
 
 import Layout from "../components/layout"
 import CardContainer from "../components/cardContainer"
@@ -51,11 +51,14 @@ const Card4 = {
 
 const Cards = [Card1, Card2, Card3];
 
-const IndexPage = () => (
-  <Layout>  
-    <SearchComponent items={Cards}></SearchComponent>
-    <CardContainer cards={Cards} />
-  </Layout>
-)
+const IndexPage = () => {
+  const [cardState, setCardState] = useState(Cards);
+  console.log(cardState);
+  return (
+    <Layout>  
+    <SearchComponent items={Cards} handler={setCardState}></SearchComponent>
+    <CardContainer cards={cardState} />
+  </Layout>);
+  }
 
 export default IndexPage
