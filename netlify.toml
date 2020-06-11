@@ -9,4 +9,4 @@
 [context.xue-card]
   publish = "public/"
   command = "gatsby develop"
-
+  base = "xue-card"
