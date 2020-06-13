@@ -1,0 +1,12 @@
+[build]
+  publish = "build/"
+  command = "yarn build"
+
+[context.branch-deploy]
+  publish = "public/"
+  command = "gatsby develop"
+
+[context.xue-card]
+  publish = "public/"
+  command = "gatsby develop"
+
