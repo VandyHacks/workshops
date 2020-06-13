@@ -4,9 +4,9 @@
 
 [context.branch-deploy]
   publish = "public/"
-  command = "gatsby develop"
+  command = "npm run develop"
 
 [context.xue-card]
   publish = "public/"
-  command = "gatsby develop"
+  command = "npm run develop"
 
