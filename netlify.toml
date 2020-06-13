@@ -1,6 +1,6 @@
 [build]
   publish = "build/"
-  command = "npm build"
+  command = "yarn build"
 
 [context.branch-deploy]
   publish = "public/"
@@ -9,4 +9,4 @@
 [context.xue-card]
   publish = "public/"
   command = "gatsby develop"
-  base = "xue-card"
+
