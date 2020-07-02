@@ -4,6 +4,7 @@ import Box from "./components/box";
 import Hackpack from "./components/hackpack";
 const hpinfo = require("./hackpack.json");
 const info = require("./info.json");
+const summerInfo = require("./summerInfo.json");
 
 const App = () => {
     return (
@@ -14,6 +15,15 @@ const App = () => {
             <div className='headerBox'>
                 <img className='header' src='./workshops.svg' alt='workshops' />
             </div>
+            <h1 className='sectionbox'>Summer Edition:</h1>
+            {summerInfo.map(e => (
+                <div key={e[0].id} className='boxbox'>
+                    <Box {...e[0]}></Box>
+                    <Box {...e[1]}></Box>
+                </div>
+            ))}
+            <center><hr style={{width: '90%', color: '#303b53', marginTop: '3%'}} /></center>
+            <h1 className='sectionbox'>Archived: </h1>
             {info.map(e => (
                 <div key={e[0].id} className='boxbox'>
                     <Box {...e[0]}></Box>
@@ -30,8 +40,8 @@ const App = () => {
                 </div>
             ))}
             <div className='buttonBox'>
-                <a type='button' className='backbut' href='https://vandyhacks.org/'>
-                    VandyHacks VII
+                <a type='button' className='backbut' href='https://summer.vandyhacks.org/'>
+                    VandyHacks: Summer Edition
                 </a>
             </div>
         </div>

@@ -8,9 +8,15 @@ const Box = props => {
       <div className="time">
         {props.time} at{' '}
         {props.virtual && props.virtual === 'true' ? (
-          <a className="twitch" href={props.twitch}>
-            Twitch
-          </a>
+          (props.twitch ? (
+            <a className="twitch" href={props.twitch}>
+              Twitch
+            </a>
+          ) : (
+            <a className="zoom" href={props.zoom}>
+              Zoom
+            </a>
+          ))
         ) : (
           props.location
         )}
@@ -28,9 +34,9 @@ const Box = props => {
         )}
       </div>
       <div className="contact">
-        {props.virtual && props.virtual === 'true' ? (
+        {props.virtual && props.slack && props.virtual === 'true' ? (
           <p>
-            Contact at:{' '}
+            Join Slack (#slackbot-workshop):{' '}
             <a className="slack" href={props.slack}>
               Slack
             </a>
@@ -46,7 +52,11 @@ const Box = props => {
         </a>
       </div>
       <div className="topic">
-        {props.topic}: {props.languages}
+        {props.topic ? (
+          <p>{props.topic}: {props.languages}</p>
+        ) : (
+          ''
+        )}
       </div>
       <div className="difficulty">
         {props.difficulty}: {props.diffnote}

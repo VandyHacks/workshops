@@ -1,24 +1,6 @@
 [
   [
     {
-      "title": "Open-saurus Rex: How to Contribute to Open Source",
-      "topic": "Web Development",
-      "id": "bwd",
-      "time": "7:00pm - 9:00pm on Mar 12",
-      "twitch": "https://twitch.tv/vandyhacks",
-      "youtube": "https://www.youtube.com/watch?v=GCNQGcJiXG0",
-      "virtual": "true",
-      "slack": "https://join.slack.com/t/vanderbiltcsorgs/shared_invite/zt-cf31pjlz-fjw0lFzk6nECP~vka4lmmg",
-      "description": "Learn about Open Source through the Chrome Dino Game!",
-      "dependencies": "Git, GitHub, VSCode.",
-      "languages": "JavaScript, Git/GitHub",
-      "difficulty": "Beginner",
-      "diffnote": "No experience necessary",
-      "github": "https://github.com/VandyHacks/Opensaurus-Rex-HackPack",
-      "slides": "https://tinyurl.com/vmpscj5",
-      "setup": "https://tinyurl.com/uml7nzl"
-    },
-    {
       "title": "How to Make Your First Website",
       "topic": "Web Development",
       "id": "bwd",
