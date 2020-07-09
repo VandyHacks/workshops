@@ -5,6 +5,7 @@
       "id": "bwd",
       "time": "10:00am - 11:00am on July 11th",
       "zoom": "https://vanderbilt.zoom.us/j/98387736601",
+      "twitch": "https://twitch.tv/vandyhacks",
       "virtual": "true",
       "description": "Learn about Open Source through the Chrome Dino Game!",
       "dependencies": "Git, GitHub, VSCode.",
