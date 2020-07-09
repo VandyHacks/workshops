@@ -8,16 +8,22 @@ const Box = props => {
       <div className="time">
         {props.time} at{' '}
         {props.virtual && props.virtual === 'true' ? (
-          (props.twitch ? (
-            <a className="twitch" href={props.twitch}>
-              Twitch
-            </a>
+          (props.zoom && props.twitch? (
+            <>
+            <a className="zoom" href={props.zoom}>Zoom</a> or <a className="twitch" href={props.twitch}>Twitch</a>
+            </>
           ) : (
-            <a className="zoom" href={props.zoom}>
-              Zoom
-            </a>
-          ))
-        ) : (
+            (props.zoom ? (
+              <a className="zoom" href={props.zoom}>
+                Zoom
+              </a>
+            ) : (
+              <a className="twitch" href={props.twitch}>
+                Twitch
+              </a>
+            ))
+          )
+        )) : (
           props.location
         )}
       </div>
