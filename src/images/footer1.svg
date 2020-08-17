@@ -1,3 +1,19 @@
 <svg width="1440" height="166" viewBox="0 0 1440 166" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0)" filter="url(#filter0_d)">
 <path opacity="0.25" d="M404.723 24.2041C1216.36 136.857 2228.98 87.9084 2228.98 87.9084C2228.98 87.9084 2864.71 915.626 2204.99 774.757C1545.28 633.888 883.737 763.154 380.738 711.052C-122.261 658.951 -406.916 -88.4491 404.723 24.2041Z" fill="#E7ECFF"/>
+</g>
+<defs>
+<filter id="filter0_d" x="-125" y="0" width="2690.12" height="809.366" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/>
+<feOffset dy="4"/>
+<feGaussianBlur stdDeviation="2"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape"/>
+</filter>
+<clipPath id="clip0">
+<rect width="2659" height="709" fill="white" transform="translate(-96.2563) rotate(2)"/>
+</clipPath>
+</defs>
 </svg>

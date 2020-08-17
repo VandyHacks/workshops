@@ -5,7 +5,7 @@ import React from "react"
 const Header = ({ siteTitle }) => (
   <header>
     <div>
-      <h1 style={{ margin: 20}}>
+      <h1 style={{ margin: 0}}>
         <a href="https://vandyhacks.org">{siteTitle}</a>
       </h1>
     </div>
