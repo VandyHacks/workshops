@@ -1,3 +1,7 @@
 [build]
   publish = "build/"
   command = "npm run build"
+
+[context.branch-deploy]
+  publish = "public/"
+  command = "npm run build"
