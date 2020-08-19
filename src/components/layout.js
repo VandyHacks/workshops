@@ -25,19 +25,18 @@ const Layout = ({ children }) => {
 
   return (
     <>
-    <div className='headerBox'>
-      <Header siteTitle={data.site.siteMetadata.title} />
-    </div>
-      <div class="container">
+      <div className='headerBox'>
+        <Header siteTitle={data.site.siteMetadata.title} />
+      </div>
+      <div className="container">
         <main>{children}</main>
-      
-        <div className='footerBox'>
-          <footer>
-            © {new Date().getFullYear()}, Built with
-            {` `}
-            <a href="https://www.gatsbyjs.org">Gatsby</a>
-          </footer>
-        </div>
+      </div>
+      <div className='footerBox'>
+        <footer>
+              © {new Date().getFullYear()}, Built with
+              {` `}
+              <a href="https://www.gatsbyjs.org">Gatsby</a>
+        </footer>
       </div>
     </>
   )

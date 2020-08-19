@@ -1,0 +1,11 @@
+.cards{
+  margin: 3rem;
+  
+}
+
+@media (max-width: 550px) {
+  .cards{
+    margin: 0;
+
+  }
+}
