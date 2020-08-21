@@ -25,8 +25,9 @@ body {
   background-size: cover;
 }
 footer {
-  margin-top: 30%;
-  background: url('../images/background.svg') no-repeat center center fixed; 
+  margin-top: 20vh;
+  background: url('../images/footer.svg') no-repeat center center fixed; 
+  background-color: blue;
   position: relative;
   color: white;
   height: 10vh;
