@@ -24,14 +24,17 @@ const Layout = ({ children }) => {
   `)
 
   return (
-    <>
+    <div style={{
+      height: '100%',
+      display: 'flex',
+      flexDirection: "column"
+    }}>
       <Header siteTitle={data.site.siteMetadata.title} />
         <div className="container">
-          <main>{children}</main>
+          <main style={{flexGrow: 1}}>{children}</main>
         </div>        
-        <footer>
-        </footer>
-    </>
+        <footer></footer>
+      </div>
   )
 }
 

@@ -25,13 +25,11 @@ body {
   background-size: cover;
 }
 footer {
-  margin-top: 20vh;
-  background: url('../images/footer.svg') no-repeat center center fixed; 
-  background-color: blue;
+  background: url('../images/footerv2.svg'); 
+  background-size: cover;
   position: relative;
   color: white;
-  height: 10vh;
-  width: 100vw;
+  min-height: 20vh;
 }
 header{
   text-align: center;
@@ -60,15 +58,4 @@ a:link
 a:visited {
   color: white;
   text-decoration: none;
-}
-.headerBox {
-  display: flex;
-  justify-content: center;
-  margin: 0;
-  width: 100%;
-}
-.footerBox {
-  display: flex;
-  margin: 0;
-  width: 100%;
 }
