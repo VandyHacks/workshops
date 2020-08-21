@@ -18,13 +18,23 @@ body {
   margin: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: url('../images/background.svg') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 footer {
-  position: absolute;
+  margin-top: 30%;
+  background: url('../images/background.svg') no-repeat center center fixed; 
+  position: relative;
   color: white;
-  width: 100%;
+  height: 10vh;
+  width: 100vw;
 }
-header,
+header{
+  text-align: center;
+}
 a {
   background-color: transparent;
   -webkit-text-decoration-skip: objects;

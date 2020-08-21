@@ -5,9 +5,9 @@ import React from "react"
 const Header = ({ siteTitle }) => (
   <header>
     <div>
-      <h1 style={{ margin: 0}}>
+      <h2 style={{ margin: 30}}>
         <a href="https://vandyhacks.org">{siteTitle}</a>
-      </h1>
+      </h2>
     </div>
   </header>
 )

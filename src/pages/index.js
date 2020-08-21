@@ -3,8 +3,6 @@ import React, {useState} from "react"
 import Layout from "../components/layout"
 import CardContainer from "../components/cardContainer"
 import SearchComponent from "../components/search"
-import bg from '../images/background.svg';
-import Background from '../components/Containers/Background';
 
 const Card1 = {
   title: 'Angular With Firebase',
@@ -48,13 +46,12 @@ const IndexPage = ({data}) => {
   const [cardsState, setCardsState] = useState(Cards);
   // console.log(cardsState);
 
-  return (
-    <Background img={bg}>
+  return ( 
       <Layout>
         <SearchComponent items={Cards} handler={setCardsState}></SearchComponent>
         <CardContainer cards={cardsState} />
       </Layout>
-    </Background>);
+  );
   }
 
 export default IndexPage
