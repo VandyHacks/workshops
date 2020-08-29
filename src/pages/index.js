@@ -11,6 +11,7 @@ const Card1 = {
   level: 'Beginner: No experience necessary',
   link1: 'link1',
   link2: 'link2',
+  visible: true
 };
 
 const Card2 = {
@@ -20,6 +21,7 @@ const Card2 = {
   level: 'Beginner: No experience necessary',
   link1: 'link1',
   link2: 'link2',
+  visible: true
 };
 
 const Card3 = {
@@ -29,6 +31,7 @@ const Card3 = {
   level: 'Intermediate: Some experience required',
   link1: 'link1',
   link2: 'link2',
+  visible: true
 };
 
 const Card4 = {
@@ -38,6 +41,7 @@ const Card4 = {
   level: 'Intermediate: Some experience necessary',
   link1: 'link1',
   link2: 'link2',
+  visible: true
 };
 
 const Cards = [Card1, Card2, Card3, Card4];

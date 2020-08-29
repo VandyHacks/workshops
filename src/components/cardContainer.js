@@ -17,6 +17,10 @@ const createCards = (cards) => cards.map( card => (
 const CardContainer = (props) => {
 
   const cardsHTML = props.cards.map((card, i) => {
+    console.log(card)
+    if (!card.visible) {
+      return
+    }
     if((i + 1) % 3 === 0) {
       return (
         <div className="row cards" key={i}>

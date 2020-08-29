@@ -28,10 +28,13 @@ class SearchComponent extends React.Component<{items: Array<Card>, handler: (arg
         card.title.search(new RegExp(query, "i")) != -1 ||
         card.description.search(new RegExp(query, "i")) != -1
       ) {
-        queryReturn.push(card);
+        card.visible = true;
       }
+      else {
+        card.visible = false;
+      }
+      queryReturn.push(card);
     }
-    console.log(queryReturn, query);
     this.props.handler(queryReturn);
   }
   render() {
