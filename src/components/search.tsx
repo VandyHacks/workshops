@@ -2,10 +2,13 @@ import React from "react"
 import Card from "./card"
 import debounce from "lodash/debounce"
 
+import "./search.css"
+
+
 class SearchComponent extends React.Component<{items: Array<Card>, handler: (arg0: Array<Card>) => void}
   , {query: string}> {
 
-  debounced = debounce(this.search, 2000);
+  debounced = debounce(this.search, 1000);
     
   constructor(props) {
       super(props);
@@ -33,13 +36,19 @@ class SearchComponent extends React.Component<{items: Array<Card>, handler: (arg
       else {
         card.visible = false;
       }
+      console.log(card.description.search(new RegExp(query, "i")))
+      console.log(card.title.search(new RegExp(query, "i")))
+      console.log(card.visible)
+
       queryReturn.push(card);
     }
+    console.log(queryReturn)
+    
     this.props.handler(queryReturn);
   }
   render() {
       return (
-          <input type="text" value={this.state.query} placeholder="Search" onChange={this.onChange}></input>
+        <input id="search-box" type="text" value={this.state.query} placeholder="Search" onChange={this.onChange}></input>
       )
   }
 

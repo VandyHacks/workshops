@@ -24,12 +24,23 @@ body {
   -o-background-size: cover;
   background-size: cover;
 }
+
+.wrapper {
+  min-height: 72vh;
+}
+
 footer {
   background: url('../images/footerv2.svg'); 
   background-size: cover;
   position: relative;
   color: white;
   min-height: 20vh;
+
+  /* position:absolute;
+  bottom: 0; */
+    bottom:0;
+
+    width:105%;
 }
 header{
   text-align: center;

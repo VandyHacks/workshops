@@ -16,21 +16,19 @@ const createCards = (cards) => cards.map( card => (
 
 const CardContainer = (props) => {
 
-  const cardsHTML = props.cards.map((card, i) => {
-    console.log(card)
-    if (!card.visible) {
-      return
-    }
+  const fliterdCards = props.cards.filter(card => card.visible);
+
+  const cardsHTML = fliterdCards.map((card, i) => {
     if((i + 1) % 3 === 0) {
       return (
         <div className="row cards" key={i}>
-          {createCards(props.cards.slice(i - 2, i + 1))}
+          {createCards(fliterdCards.slice(i - 2, i + 1))}
         </div>
       ) 
-    } else if (i === props.cards.length - 1 ) {
+    } else if (i === fliterdCards.length - 1 ) {
       return (
         <div className="row cards" key={i}>
-         {createCards(props.cards.slice(Math.floor(i / 3) * 3, props.cards.length))}
+         {createCards(fliterdCards.slice(Math.floor(i / 3) * 3, fliterdCards.length))}
         </div>
       ) 
     }

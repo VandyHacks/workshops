@@ -30,7 +30,7 @@ const Layout = ({ children }) => {
       flexDirection: "column"
     }}>
       <Header siteTitle={data.site.siteMetadata.title} />
-        <div className="container">
+        <div className="container wrapper">
           <main style={{flexGrow: 1}}>{children}</main>
         </div>        
         <footer></footer>
