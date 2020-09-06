@@ -10,7 +10,7 @@ interface Card {
   level: string,
   link1: string,
   link2: string,
-  visible: boolean,
+  dependencies: string,
 }
 
 const Card = (props: {level: string; time: string; link1: string; link2: string; title: string; subtitle: string; description: string }) => {
