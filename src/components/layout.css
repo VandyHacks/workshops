@@ -46,13 +46,13 @@ header {
   font-family: 'Press Start 2P';
 }
 
-a {
-   color: white !important;
+header a {
+   color: white;
 }
 
-a:hover 
+header a:hover 
 {
-  color: white !important; 
+  color: white; 
   cursor: pointer;  
 }
 
