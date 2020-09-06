@@ -4,61 +4,16 @@ import Layout from "../components/layout"
 import CardContainer from "../components/cardContainer"
 import SearchComponent from "../components/search"
 
-const Card1 = {
-  title: 'Angular With Firebase',
-  description: "This is an introduction to the Angular web framework and using Firebase alongside it to handle authentication and storage. Learn about the basic building blocks of Angular and how to get a web app up and running really quickly.",
-  time: '9:30pm - 10:30pm on Nov 1 in ESB 048',
-  level: 'Beginner: No experience necessary',
-  codeLink: 'http://google.com/',
-  slidesLink: 'http://google.com/',
-  dependency: "Dependencies: Python 3, Pip3", 
-  visible: true
-};
+import cardArr from "../components/cardData.ts"
 
-const Card2 = {
-  title: 'Open-saurus Rex: How to Contribute to Open Source',
-  description: 'Learn about Open Source through the Chrome Dino Game!',
-  time: '7:00pm - 9:00pm on Mar 12 at Twitch',
-  level: 'Beginner: No experience necessary',
-  codeLink: 'http://google.com/',
-  slidesLink: 'http://google.com/',
-  dependency: "Dependencies: Python 3, Pip3", 
-  visible: true
-};
-
-const Card3 = {
-  title: 'Making Your First 3D Video Game with Unity',
-  description: 'This Unity workshop for absolute beginners will teach the basics of 3D objects, movement, and interaction. We will dip into minimal C# scripting but no coding experience is necessary. You will walk out with a playable minigame and a foundation to be able to learn and understand more about Unity!',
-  time: '9:30pm - 10:30pm on Nov 1 in ESB 048',
-  level: 'Intermediate: Some experience required',
-  codeLink: 'http://google.com/',
-  slidesLink: 'http://google.com/',
-  dependency: "Dependencies: Setup at ",
-  dependencyLink: "https://tinyurl.com/uml7nzl", 
-  visible: true
-};
-
-const Card4 = {
-  title: 'Introduction to APIs',
-  description: 'This workshop will walk you through how to use and create an API. In the first half, we will start the workshop by exploring the basics of Postman and how to use it to make GET and POST requests on an API. In the latter half, we will be creating our own API with several routes and middleware using ExpressJS.',
-  time: '10:30pm - 11:30pm on Nov 1 ',
-  level: 'Intermediate: Some experience',
-  codeLink: 'http://google.com/',
-  slidesLink: 'http://google.com/',
-  dependency: "Dependencies: Python 3, Pip3", 
-
-  visible: true
-};
-
-const Cards = [Card1, Card2, Card3, Card4];
 
 const IndexPage = ({data}) => {
-  const [cardsState, setCardsState] = useState(Cards);
+  const [cardsState, setCardsState] = useState(cardArr);
   // console.log(cardsState);
 
   return ( 
       <Layout>
-        <SearchComponent items={Cards} handler={setCardsState}></SearchComponent>
+        <SearchComponent items={cardArr} handler={setCardsState}></SearchComponent>
         <CardContainer cards={cardsState} />
       </Layout>
   );

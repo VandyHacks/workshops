@@ -29,8 +29,8 @@ const Card = (props: {level: string; time: string; dependency: string; dependenc
       {props.time}
     </p>
     <p>
-      <i>{props.dependency}
-      <a target="_blank" className="link" href={props.dependencyLink }>{props.dependencyLink ?  props.dependencyLink: ""}</a></i> 
+      <i>Dependencies: {props.dependency}
+      {props.dependencyLink ?  ". Setup at: ": ""}<a target="_blank" className="link" href={props.dependencyLink }>{props.dependencyLink ?  props.dependencyLink: ""}</a></i> 
     </p>
     <p>
       <b>Code</b>: <a target="_blank" className="link" href={props.codeLink}>{props.codeLink}</a><br/> 
