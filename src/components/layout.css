@@ -35,38 +35,19 @@ footer {
   position: relative;
   color: white;
   min-height: 20vh;
-
-  /* position:absolute;
-  bottom: 0; */
-    bottom:0;
-
-    width:105%;
+  /* position:absolute;*/
+  bottom:0;
+  width:105%;
 }
+
 header{
   text-align: center;
-}
-a {
-  background-color: transparent;
-  -webkit-text-decoration-skip: objects;
+  color: white;
   font-family: 'Press Start 2P';
-  color: white;
   text-decoration: none;
+  background-color: transparent;
 }
-a:active {
-  color:white;
-  text-decoration: none;
-}
-a:hover {
-  outline-width: 0;
-  color:white;
-  text-decoration: none;
-}
-a:link
-{
-  color:white;
-  text-decoration: none;
-}
-a:visited {
-  color: white;
-  text-decoration: none;
+h2 {
+  padding-top: 30px;
+  padding-bottom: 0px;
 }
