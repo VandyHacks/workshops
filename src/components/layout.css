@@ -40,13 +40,22 @@ footer {
   width:105%;
 }
 
-header{
+header {
   text-align: center;
   color: white;
   font-family: 'Press Start 2P';
-  text-decoration: none;
-  background-color: transparent;
 }
+
+a {
+   color: white !important;
+}
+
+a:hover 
+{
+  color: white !important; 
+  cursor: pointer;  
+}
+
 h2 {
   padding-top: 30px;
   padding-bottom: 0px;
