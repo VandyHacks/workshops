@@ -6,24 +6,37 @@ import "./card.css"
 interface Card {
   title: string,
   description: string,
+  dependency: string,
+  dependencyLink: string,
   time: string,
   level: string,
-  link1: string,
-  link2: string,
+  codeLink: string,
+  slidesLink: string,
   visible: boolean,
 }
 
-const Card = (props: {level: string; time: string; link1: string; link2: string; title: string; subtitle: string; description: string }) => {
+const Card = (props: {level: string; time: string; dependency: string; dependencyLink: string; codeLink: string; slidesLink: string; title: string; subtitle: string; description: string }) => {
 
   const [isVerbose, setVerbose] = useState(false);
 
   const meta = (
+    <>
     <p>
-      {props.time} <br/> 
-      {props.level} <br/> 
-      <a className="link" href={props.link1}>link1</a><br/> 
-      <a className="link" href={props.link2}>link2</a><br/> 
+      On <a target="_blank" className="link" href="https://www.twitch.tv/vandyhacks">Twitch</a>
     </p>
+    <p>
+      {props.level}  <br/> 
+      {props.time}
+    </p>
+    <p>
+      <i>{props.dependency}
+      <a target="_blank" className="link" href={props.dependencyLink }>{props.dependencyLink ?  props.dependencyLink: ""}</a></i> 
+    </p>
+    <p>
+      <b>Code</b>: <a target="_blank" className="link" href={props.codeLink}>{props.codeLink}</a><br/> 
+      <b>Slides: </b><a target="_blank" className="link" href={props.slidesLink}>{props.slidesLink}</a><br/> 
+    </p>
+    </>
   )
 
   const getContent = (isVerbose) => 
@@ -32,10 +45,9 @@ const Card = (props: {level: string; time: string; link1: string; link2: string;
   
   return (
     <div className="card">
-
+      
       <div className="description">
         <h1 className="title">{props.title}</h1>
-        {/* <h2 className="subtitle">{props.subtitle}</h2> */}
         {getContent(isVerbose)}
       </div>
 
