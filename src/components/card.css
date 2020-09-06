@@ -15,7 +15,7 @@
   border-radius: 25px;
   overflow: hidden;
   z-index: 0;
-  min-height: 25rem;
+  min-height: 21rem;
   position: relative;
   display: block;
 }
@@ -25,6 +25,10 @@
   font-family: Roboto, sans-serif;
 
   color: rgba(0, 0, 0, 0.6);
+}
+
+.inactive a:hover{
+  pointer-events: none;
 }
 .card a:hover {
   color: #a2a2a2;

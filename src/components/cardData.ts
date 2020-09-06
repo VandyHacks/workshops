@@ -4,7 +4,7 @@ const cardArr: Array<Card> = [
   {
     title: 'Big Data Workshop',
     description: 'Learn about Big Data and Pipelining!',
-    time: 'on Twitch',
+    time: 'TBD',
     level: 'Beginner: no experience necessary',
     codeLink: 'https://github.com/VandyHacks/Opensaurus-Rex-HackPack',
     slidesLink: 'https://docs.google.com/presentation/d/1OMv4DPrLUQ3TVVVN7hgPgv0G_hVqQoR6-buZxnGDOsg/edit?usp=sharing',
@@ -15,7 +15,7 @@ const cardArr: Array<Card> = [
   {
     title: 'Full Stack with React',
     description: 'Build a simple personal stock tracker application using React, adding in the ability to store and retrieve dynamic data.',
-    time: 'on Twitch',
+    time: 'TBD',
     level: 'Intermediate: some HTML/CSS/JavaScript experience is helpful',
     codeLink: 'N/A',
     slidesLink: 'N/A',
@@ -26,7 +26,7 @@ const cardArr: Array<Card> = [
   {
     title: 'Google Cloud API',
     description: 'Learn how to recognize image text and translate text using Google Cloud APIs.',
-    time: 'on Twitch',
+    time: 'TBD',
     level: 'Beginner: no experience necessary',
     codeLink: 'https://github.com/VandyHacks/GoogleCloudWorkshop',
     slidesLink: 'https://docs.google.com/presentation/d/1HVPxRWb3HA2-9NvKapEZr2OWg5pGyoe4ZekhRAbehc4/edit?usp=sharing',
@@ -37,7 +37,7 @@ const cardArr: Array<Card> = [
   {
     title: 'Neural Networks',
     description: 'Learn how to apply Deep Learning to your own projects!',
-    time: 'on Twitch',
+    time: 'TBD',
     level: 'Beginner: no experience necessary',
     codeLink: 'https://github.com/VandyHacks/NeuralNetworksWorkshop',
     slidesLink: 'https://docs.google.com/presentation/u/2/d/12HoHZ7RrKxewx9B0Ag8aJsFUzwKsk084JVNBA5w8vmI/edit#slide=id.p',
@@ -49,7 +49,7 @@ const cardArr: Array<Card> = [
   {
     title: 'Open Source',
     description: 'Learn about Open Source through the Chrome Dino Game!',
-    time: 'on Twitch',
+    time: 'TBD',
     level: 'Beginner: no experience necessary',
     codeLink: 'https://github.com/VandyHacks/Opensaurus-Rex-HackPack',
     slidesLink: 'https://tinyurl.com/vmpscj5',
@@ -60,7 +60,7 @@ const cardArr: Array<Card> = [
   {
     title: 'React Native',
     description: 'Learn about React Native by making a Todo app!',
-    time: 'on Twitch',
+    time: 'TBD',
     level: 'Intermediate: Basic React experience needed.',
     codeLink: 'https://github.com/VandyHacks/ReactNativeWorkshop',
     slidesLink: 'https://docs.google.com/presentation/d/1XfVOYSWAFPlP-QP_0b6b5QjV6OIBvjCnrIeJi-5O8pE/edit#slide=id.p',
@@ -71,7 +71,7 @@ const cardArr: Array<Card> = [
   {
     title: 'SlackBot',
     description: 'Learn how APIs, App Registration, Permissions, and Deployment work with SlackBots!',
-    time: 'on Twitch',
+    time: 'TBD',
     level: 'Intermediate: Some JavaScript experience encouraged',
     codeLink: 'https://github.com/VandyHacks/SlackBotWorkshop',
     slidesLink: 'https://tinyurl.com/ydxfhgkf',

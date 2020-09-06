@@ -25,16 +25,16 @@ const Card = (props: {level: string; time: string; dependency: string; dependenc
       On <a target="_blank" className="link" href="https://www.twitch.tv/vandyhacks">Twitch</a>
     </p>
     <p>
-      {props.level}  <br/> 
-      {props.time}
+      <b>Level</b>: {props.level}  <br/> 
+      <b>Time</b>: {props.time}
     </p>
     <p>
-      <i>Dependencies: {props.dependency}
+      <i><b>Dependencies</b>: {props.dependency}
       {props.dependencyLink ?  ". Setup at: ": ""}<a target="_blank" className="link" href={props.dependencyLink }>{props.dependencyLink ?  props.dependencyLink: ""}</a></i> 
     </p>
     <p>
-      <b>Code</b>: <a target="_blank" className="link" href={props.codeLink}>{props.codeLink}</a><br/> 
-      <b>Slides: </b><a target="_blank" className="link" href={props.slidesLink}>{props.slidesLink}</a><br/> 
+      <b>Code</b>: <a target="_blank" className="link" href={props.codeLink}>{props.codeLink == 'N/A' ? 'N/A': 'Code on Github'}</a><br/> 
+      <b>Slides</b>: <a target="_blank" className="link"  href={props.slidesLink}>{props.slidesLink == 'N/A' ? 'N/A': 'Google Slides'}</a><br/> 
     </p>
     </>
   )
