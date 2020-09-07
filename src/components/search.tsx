@@ -29,7 +29,8 @@ class SearchComponent extends React.Component<{items: Array<Card>, handler: (arg
     for (let card of items) {
       if (
         card.title.search(new RegExp(query, "i")) != -1 ||
-        card.description.search(new RegExp(query, "i")) != -1
+        card.description.search(new RegExp(query, "i")) != -1 ||
+        card.dependency.search(new RegExp(query, "i")) != -1
       ) {
         card.visible = true;
       }
