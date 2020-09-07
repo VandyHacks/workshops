@@ -3,12 +3,19 @@ import React, {useState} from "react"
 
 import "./card.css"
 
+enum difficulty {
+  Beginner,
+  Intermediate,
+  Expert
+}
+
 interface Card {
   title: string,
   description: string,
   dependency: string,
   dependencyLink: string,
   time: string,
+  difficulty: difficulty,
   level: string,
   codeLink: string,
   slidesLink: string,
