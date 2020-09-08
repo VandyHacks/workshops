@@ -11,3 +11,13 @@
     margin-bottom: 1.5rem;
   }
 }
+
+#difficulty-filter {
+  color:white;
+  margin: 0.8rem 4.5%;
+}
+
+input {
+  margin-left: 10px;
+  margin-right: 5px;
+}

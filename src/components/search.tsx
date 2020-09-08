@@ -69,15 +69,17 @@ class SearchComponent extends React.Component<{items: Array<Card>, handler: (arg
       return (
         <span>
           <input id="search-box" type="text" value={this.state.query} placeholder="Search" onChange={this.onChange}></input>
-          <fieldset style={{"display":"flex", "flexDirection":"row"}}>
-            <legend>Difficulty</legend>
-            <input className="search-difficulty" type="checkbox" onChange={this.handleCheckbox} value="0" name="difficulty" id="beginner"></input>
-            <label htmlFor="beginner">Beginner</label>
-            <input className="search-difficulty" type="checkbox" onChange={this.handleCheckbox} value="1" name="difficulty" id="intermediate"></input>
-            <label htmlFor="intermediate">Intermediate</label>
-            <input className="search-difficulty" type="checkbox" onChange={this.handleCheckbox} value="2" name="difficulty" id="expert"></input>
-            <label htmlFor="expert">Expert</label>
-          </fieldset>
+          <div id="difficulty-filter">
+            <fieldset style={{"display":"flex", "flexDirection":"row"}}>
+              <legend>Difficulty</legend>
+              <input className="search-difficulty" type="checkbox" onChange={this.handleCheckbox} value="0" name="difficulty" id="beginner"></input>
+              <label htmlFor="beginner">Beginner</label>
+              <input className="search-difficulty" type="checkbox" onChange={this.handleCheckbox} value="1" name="difficulty" id="intermediate"></input>
+              <label htmlFor="intermediate">Intermediate</label>
+              <input className="search-difficulty" type="checkbox" onChange={this.handleCheckbox} value="2" name="difficulty" id="expert"></input>
+              <label htmlFor="expert">Expert</label>
+            </fieldset>
+          </div>
         </span>
       )
   }
