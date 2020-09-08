@@ -16,6 +16,8 @@
   color:white;
   margin: 0.8rem 4.5%;
   font-size: 12px;
+  display: flex;
+  flex-direction: row;
 }
 
 input {
@@ -29,9 +31,15 @@ input {
   -webkit-appearance: none;
   outline: none;
   cursor: pointer;
-  display: block; 
+  display: table-cell;
 }
 
 input:checked {
   background-color:black;
+}
+
+legend{
+  color:white;
+  margin: 0.8rem 4.5%;
+  font-size: 12px;
 }
