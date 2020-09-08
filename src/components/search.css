@@ -25,11 +25,11 @@ input {
   height: 1.3em;
   background-color: white;
   border-radius: 50%;
-  vertical-align: middle;
   border: 2px solid #ddd;
   -webkit-appearance: none;
   outline: none;
   cursor: pointer;
+  display: block; 
 }
 
 input:checked {
