@@ -18,6 +18,7 @@
   font-size: 12px;
   display: flex;
   flex-direction: row;
+  cursor: pointer;
 }
 
 input {
@@ -30,7 +31,6 @@ input {
   border: 2px solid #ddd;
   -webkit-appearance: none;
   outline: none;
-  cursor: pointer;
   display: table-cell;
 }
 
