@@ -18,10 +18,9 @@
   font-size: 12px;
   display: flex;
   flex-direction: row;
-  cursor: pointer;
 }
 
-input {
+#difficulty-filter .search-difficulty {
   margin-left: 15px;
   margin-right: 5px;
   width: 1.3em;
@@ -32,13 +31,14 @@ input {
   -webkit-appearance: none;
   outline: none;
   display: table-cell;
+  cursor: pointer;
 }
 
-input:checked {
+#difficulty-filter .search-difficulty:checked {
   background-color:black;
 }
 
-legend{
+legend {
   color:white;
   margin: 0.8rem 4.5%;
   font-size: 14px;
