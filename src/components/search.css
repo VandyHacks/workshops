@@ -15,9 +15,23 @@
 #difficulty-filter {
   color:white;
   margin: 0.8rem 4.5%;
+  font-size: 12px;
 }
 
 input {
-  margin-left: 10px;
+  margin-left: 15px;
   margin-right: 5px;
+  width: 1.3em;
+  height: 1.3em;
+  background-color: white;
+  border-radius: 50%;
+  vertical-align: middle;
+  border: 1px solid #ddd;
+  -webkit-appearance: none;
+  outline: none;
+  cursor: pointer;
+}
+
+input:checked {
+  background-color: #2196F3;
 }
