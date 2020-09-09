@@ -1,0 +1,99 @@
+/* styeling of card */
+
+* {
+  box-sizing: border-box;
+}
+
+.card {
+  margin: 1.5rem 3.6%;
+  box-shadow: 0 3px 7px -1px rgba(0, 0, 0, 0.1);
+  background: #F9E9BA;
+  line-height: 1.6rem;
+  font-family: Roboto, sans-serif;
+  font-weight: normal;
+  font-size: 1.1rem;
+  border-radius: 25px;
+  overflow: hidden;
+  z-index: 0;
+  min-height: 21rem;
+  position: relative;
+  display: block;
+}
+
+.card a {
+  text-decoration: none;
+  font-family: Roboto, sans-serif;
+
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.inactive a:hover{
+  pointer-events: none;
+}
+.card a:hover {
+  color: #a2a2a2;
+}
+
+.card p {
+  margin: 0;
+  margin-top: 0.6rem;
+}
+
+
+.title {
+  margin-bottom: 1rem;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.7rem;
+  line-height: 2.3rem;
+  color: #091133;
+
+}
+
+.description {
+  padding: 1.5rem 4rem 0 1.7rem;
+  position: relative;
+  z-index: 0;
+  margin-bottom: 1.5rem;
+}
+
+/* for potential subtitle */
+.card .description h2 {
+  font-size: 1rem;
+  font-weight: 300;
+  text-transform: uppercase;
+  color: #a2a2a2;
+  margin-top: 5px;
+}
+
+
+@media (max-width: 550px) {
+  .card{
+    min-height: 0;
+  }
+}
+
+.more{
+  position: absolute;
+  bottom: -50px;
+  height: 120px;
+  width: 120px;
+  right: -74px;
+  background: #F9D67E;
+  z-index: 1000;
+  transform: skew(-45deg);
+  margin-bottom: 0;
+}
+
+.button-img {
+  position: absolute;
+  border: none;
+  right: -1px;
+  z-index: 1001;
+  bottom: -2px;
+  width: 38px;
+}
+
+.more-button:hover {
+  cursor: pointer;
+}

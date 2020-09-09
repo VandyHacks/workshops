@@ -24,28 +24,23 @@ const Layout = ({ children }) => {
   `)
 
   return (
-    <>
+    <div style={{
+      height: '100%',
+      display: 'flex',
+      flexDirection: "column"
+    }}>
       <Header siteTitle={data.site.siteMetadata.title} />
-      <div
-        style={{
-          margin: `0 auto`,
-          maxWidth: 960,
-          padding: `0 1.0875rem 1.45rem`,
-        }}
-      >
-        <main>{children}</main>
-        <footer>
-          © {new Date().getFullYear()}, Built with
-          {` `}
-          <a href="https://www.gatsbyjs.org">Gatsby</a>
-        </footer>
+        <div className="container wrapper">
+          <main style={{flexGrow: 1}}>{children}</main>
+        </div>        
+        <footer></footer>
       </div>
-    </>
   )
 }
 
 Layout.propTypes = {
   children: PropTypes.node.isRequired,
 }
+
 
 export default Layout

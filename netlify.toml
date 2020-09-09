@@ -1,0 +1,12 @@
+[build]
+  publish = "build/"
+  command = "yarn build"
+
+[context.branch-deploy]
+  publish = "public/"
+  command = "npm run build"
+
+[context.xue-card]
+  publish = "public/"
+  command = "npm run build"
+

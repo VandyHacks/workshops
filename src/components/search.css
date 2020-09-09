@@ -1,0 +1,45 @@
+#search-box{
+  margin: 0.8rem 4.5%;
+  border-radius: 24px;
+  width: 26%;
+  border: 1.5px solid #FECD3C;
+}
+
+@media (max-width: 550px) {
+  #search-box{
+    width: 92%;
+    margin-bottom: 1.5rem;
+  }
+}
+
+#difficulty-filter {
+  color:white;
+  margin: 0.8rem 4.5%;
+  font-size: 12px;
+  display: flex;
+  flex-direction: row;
+}
+
+#difficulty-filter .search-difficulty {
+  margin-left: 15px;
+  margin-right: 5px;
+  width: 1.3em;
+  height: 1.3em;
+  background-color: white;
+  border-radius: 50%;
+  border: 2px solid #ddd;
+  -webkit-appearance: none;
+  outline: none;
+  display: table-cell;
+  cursor: pointer;
+}
+
+#difficulty-filter .search-difficulty:checked {
+  background-color:black;
+}
+
+legend {
+  color:white;
+  margin: 0.8rem 4.5%;
+  font-size: 14px;
+}
