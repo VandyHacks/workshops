@@ -6,7 +6,7 @@
   publish = "public/"
   command = "npm run build"
 
-[context.xue-card]
+[context.2020-fall]
   publish = "public/"
   command = "npm run build"
 
