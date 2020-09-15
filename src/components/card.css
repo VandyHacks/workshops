@@ -85,6 +85,10 @@
   margin-bottom: 0;
 }
 
+.more-button:hover > .more{
+  background: #e6ad1e;
+}
+
 .button-img {
   position: absolute;
   border: none;
