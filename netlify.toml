@@ -1,12 +1,12 @@
 [build]
-  publish = "public/"
-  command = "npm run build"
+  publish = "build/"
+  command = "yarn build"
 
 [context.branch-deploy]
   publish = "public/"
   command = "npm run build"
 
-[context.2020-fall]
+[context.xue-card]
   publish = "public/"
   command = "npm run build"
 
