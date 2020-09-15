@@ -23,8 +23,8 @@
 .card a {
   text-decoration: none;
   font-family: Roboto, sans-serif;
-
-  color: rgba(0, 0, 0, 0.6);
+  font-weight: bold;
+  color: rgb(63, 51, 238);
 }
 
 .inactive a:hover{
@@ -83,6 +83,10 @@
   z-index: 1000;
   transform: skew(-45deg);
   margin-bottom: 0;
+}
+
+.more-button:hover > .more{
+  background: #e6ad1e;
 }
 
 .button-img {
