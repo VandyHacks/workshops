@@ -40,8 +40,8 @@ const Card = (props: {level: string; time: string; dependency: string; dependenc
       {props.dependencyLink ?  ". Setup at: ": ""}<a target="_blank" className="link" href={props.dependencyLink }>{props.dependencyLink ?  props.dependencyLink: ""}</a></i> 
     </p>
     <p>
-      {props.codeLink === 'N/A' ? null : <b>Code: </b><a target="_blank" className="link" href={props.codeLink}>GitHub</a><br/>}
-      {props.slidesLink === 'N/A' ? null : <b>Slides: </b><a target="_blank" className="link" href={props.slidesLink}>Google Slides</a><br/>}
+      {props.codeLink === 'N/A' ? null : '<b>Code: </b><a target="_blank" className="link" href={props.codeLink}>GitHub</a><br/>'}
+      {props.slidesLink === 'N/A' ? null : '<b>Slides: </b><a target="_blank" className="link" href={props.slidesLink}>Google Slides</a><br/>'}
     </p>
     </>
   )
