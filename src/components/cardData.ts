@@ -14,18 +14,6 @@ const cardArr: Array<Card> = [
     visible: true,
   },
   {
-    title: 'Full Stack with React',
-    description: 'Build a simple personal stock tracker application using React, adding in the ability to store and retrieve dynamic data.',
-    time: 'Sat Oct 3rd, 12-1pm CST',
-    difficulty: 1,
-    level: 'Some HTML/CSS/JavaScript experience is helpful, but not required',
-    codeLink: 'N/A',
-    slidesLink: 'N/A',
-    dependency: 'React, Koa, MongoDB',
-    dependencyLink: "",
-    visible: true,
-  },
-  {
     title: 'Google Cloud API',
     description: 'Learn how to recognize image text and translate text using Google Cloud APIs.',
     time: 'Sat Oct 3nd, 11am-12pm CST',
