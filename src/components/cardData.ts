@@ -7,7 +7,7 @@ const cardArr: Array<Card> = [
     time: 'Sat Oct 3nd, 10-11am CST',
     difficulty: 0,
     level: 'No experience necessary :)',
-    codeLink: 'https://github.com/VandyHacks/Opensaurus-Rex-HackPack',
+    codeLink: 'https://github.com/VandyHacks/BigDataWorkshop',
     slidesLink: 'https://docs.google.com/presentation/d/1OMv4DPrLUQ3TVVVN7hgPgv0G_hVqQoR6-buZxnGDOsg/edit?usp=sharing',
     dependency: 'Python 3, Pip 3',
     dependencyLink: "",
