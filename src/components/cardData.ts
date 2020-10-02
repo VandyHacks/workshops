@@ -12,6 +12,7 @@ const cardArr: Array<Card> = [
     dependency: 'Python 3, Pip 3',
     dependencyLink: "",
     visible: true,
+    vidLink: '',
   },
   {
     title: 'Google Cloud API',
@@ -24,6 +25,7 @@ const cardArr: Array<Card> = [
     dependency: 'Google Colab',
     dependencyLink: '',
     visible: true,
+    vidLink: '',
   },
   {
     title: 'Neural Networks',
@@ -36,7 +38,7 @@ const cardArr: Array<Card> = [
     dependency: 'Google Colab',
     dependencyLink: '',
     visible: true,
-
+    vidLink: '',
   },
   {
     title: 'Open Source',
@@ -49,6 +51,7 @@ const cardArr: Array<Card> = [
     dependency: 'Git, GitHub, VSCode',
     dependencyLink: "https://tinyurl.com/uml7nzl",
     visible: true,
+    vidLink: '',
   },
   {
     title: 'React Native',
@@ -61,6 +64,7 @@ const cardArr: Array<Card> = [
     dependency: 'React, IDE of choice',
     dependencyLink: '',
     visible: true,
+    vidLink: '',
   },
   {
     title: 'SlackBot',
@@ -73,6 +77,7 @@ const cardArr: Array<Card> = [
     dependency: 'Git, GitHub, VSCode',
     dependencyLink: '',
     visible: true,
+    vidLink: '',
   },
   {
     title: 'Full Stack with Angular',
@@ -85,6 +90,7 @@ const cardArr: Array<Card> = [
     dependency: 'Node, NPM, Angular-CLI',
     dependencyLink: '',
     visible: true,
+    vidLink: '',
   }
 ];
 

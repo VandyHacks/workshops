@@ -1,4 +1,3 @@
-import PropTypes from "prop-types"
 import React, {useState} from "react"
 
 import "./card.css"
@@ -19,17 +18,18 @@ interface Card {
   level: string,
   codeLink: string,
   slidesLink: string,
+  vidLink: string,
   visible: boolean,
 }
 
-const Card = (props: {level: string; time: string; dependency: string; dependencyLink: string; codeLink: string; slidesLink: string; title: string; subtitle: string; description: string }) => {
+const Card = (props: Card) => {
 
   const [isVerbose, setVerbose] = useState(false);
 
   const meta = (
     <>
     <p>
-      On <a target="_blank" className="link" href="https://www.twitch.tv/vandyhacks">Twitch</a>
+      <a target="_blank" className="link" href={props.vidLink !== '' ? props.vidLink : "https://www.twitch.tv/vandyhacks"}>Watch here</a>
     </p>
     <p>
       <b>Level</b>: {props.level}  <br/> 
