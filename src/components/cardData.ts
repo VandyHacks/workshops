@@ -12,7 +12,7 @@ const cardArr: Array<Card> = [
     dependency: 'Python 3, Pip 3',
     dependencyLink: "",
     visible: true,
-    vidLink: '',
+    vidLink: 'https://youtu.be/txRjZvOAMnc',
   },
   {
     title: 'Google Cloud API',
@@ -25,7 +25,7 @@ const cardArr: Array<Card> = [
     dependency: 'Google Colab',
     dependencyLink: '',
     visible: true,
-    vidLink: '',
+    vidLink: 'https://youtu.be/D_H4vchrSn8',
   },
   {
     title: 'Neural Networks',
@@ -38,7 +38,7 @@ const cardArr: Array<Card> = [
     dependency: 'Google Colab',
     dependencyLink: '',
     visible: true,
-    vidLink: '',
+    vidLink: 'https://youtu.be/Yue_yX5k-Hc',
   },
   {
     title: 'Open Source',
@@ -51,7 +51,7 @@ const cardArr: Array<Card> = [
     dependency: 'Git, GitHub, VSCode',
     dependencyLink: "https://tinyurl.com/uml7nzl",
     visible: true,
-    vidLink: '',
+    vidLink: 'https://youtu.be/0fkE7Awceig',
   },
   {
     title: 'React Native',
@@ -64,7 +64,7 @@ const cardArr: Array<Card> = [
     dependency: 'React, IDE of choice',
     dependencyLink: '',
     visible: true,
-    vidLink: '',
+    vidLink: 'https://youtu.be/e2JHoda3RZU',
   },
   {
     title: 'SlackBot',
@@ -77,7 +77,7 @@ const cardArr: Array<Card> = [
     dependency: 'Git, GitHub, VSCode',
     dependencyLink: '',
     visible: true,
-    vidLink: '',
+    vidLink: 'https://youtu.be/12lSoyqgSxw',
   },
   {
     title: 'Full Stack with Angular',
@@ -90,7 +90,7 @@ const cardArr: Array<Card> = [
     dependency: 'Node, NPM, Angular-CLI',
     dependencyLink: '',
     visible: true,
-    vidLink: '',
+    vidLink: 'https://youtu.be/peKt6tRog60',
   }
 ];
 
