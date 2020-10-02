@@ -92,7 +92,7 @@ const cardArr: Array<Card> = [
     visible: true,
     vidLink: 'https://youtu.be/peKt6tRog60',
   }, 
-    title: 'Intro To HTML and CSS',
+  { title: 'Intro To HTML and CSS',
     description: 'Learn how to make an instagram clone through HTML and CSS!',
     time: 'Fri Oct 2nd, 11pm-12am',
     difficulty: 1,
