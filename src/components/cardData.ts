@@ -98,7 +98,7 @@ const cardArr: Array<Card> = [
     time: 'Fri Oct 2nd, 11pm-12am',
     difficulty: 1,
     level: 'No experience necessary :)',
-    codeLink: 'N/A',
+    codeLink: 'https://codepen.io/kevjin/pen/vYGoLBY',
     slidesLink: 'N/A',
     dependency: 'Nothing!',
     dependencyLink: '',
