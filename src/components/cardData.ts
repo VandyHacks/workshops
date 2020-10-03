@@ -96,7 +96,7 @@ const cardArr: Array<Card> = [
     title: 'Intro To HTML and CSS',
     description: 'Learn how to make an instagram clone through HTML and CSS!',
     time: 'Fri Oct 2nd, 11pm-12am',
-    difficulty: 1,
+    difficulty: 0,
     level: 'No experience necessary :)',
     codeLink: 'https://codepen.io/kevjin/pen/vYGoLBY',
     slidesLink: 'N/A',
