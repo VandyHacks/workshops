@@ -12,7 +12,7 @@ const cardArr: Array<Card> = [
     dependency: 'Nothing!',
     dependencyLink: "",
     visible: true,
-    vidLink: 'N/A',
+    vidLink: 'https://www.twitch.tv/vandyhacks2',
   },
   {
     title: 'Web Scraping',
@@ -25,7 +25,7 @@ const cardArr: Array<Card> = [
     dependency: 'Python',
     dependencyLink: "",
     visible: true,
-    vidLink: 'N/A',
+    vidLink: 'https://www.twitch.tv/vandyhacks',
   },
   {
     title: 'GraphQL',
@@ -38,7 +38,7 @@ const cardArr: Array<Card> = [
     dependency: 'Nothing!',
     dependencyLink: "",
     visible: true,
-    vidLink: 'N/A',
+    vidLink: 'https://www.twitch.tv/vandyhacks',
   },
   {
     title: 'Deep Learning and Image Classification',
@@ -51,11 +51,11 @@ const cardArr: Array<Card> = [
     dependency: 'Google Colab',
     dependencyLink: "",
     visible: true,
-    vidLink: 'N/A',
+    vidLink: 'https://www.twitch.tv/vandyhacks2',
   },
   {
     title: 'Nix',
-    description: 'Never hear "works on my machine" ever again — Learn more about Nix with us!',
+    description: 'Never hear "...but it works on my machine?" ever again — Learn more about Nix with us!',
     time: 'Fri Oct 8th, 9pm - 10pm CST',
     difficulty: 2,
     level: 'Advanced',
@@ -64,7 +64,7 @@ const cardArr: Array<Card> = [
     dependency: 'Nothing!',
     dependencyLink: "",
     visible: true,
-    vidLink: 'N/A',
+    vidLink: 'https://www.twitch.tv/vandyhacks',
   },
   {
     title: 'Drone Strikes and Disinformation: What Your CS & Ethics Class Didn’t Teach You',
@@ -77,7 +77,7 @@ const cardArr: Array<Card> = [
     dependency: 'Nothing!',
     dependencyLink: "",
     visible: true,
-    vidLink: 'N/A',
+    vidLink: 'https://www.twitch.tv/vandyhacks',
   }, 
   { 
     title: 'How to Solve Famous Problems',
@@ -90,7 +90,7 @@ const cardArr: Array<Card> = [
     dependency: 'Nothing!',
     dependencyLink: "",
     visible: true,
-    vidLink: 'N/A',
+    vidLink: 'https://www.twitch.tv/vandyhacks',
   }
 ];
 
